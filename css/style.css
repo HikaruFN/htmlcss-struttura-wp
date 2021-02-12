@@ -5,3 +5,49 @@
     box-sizing: border-box;
 }
 /*Common*/
+.colonna-float{
+    height: 500px;
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Proprietà righe e colonne*/
+.riga-rosa{
+    background-color: #e579e6;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.riga-beige{
+    background-color: #e1d67a;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.riga-celeste{
+    background-color: #abcfe7;
+    height: 80px;
+}
+.riga-blu{
+    background-color: #0188fd;
+    height: 15px;
+}
+.colonna-celeste{
+    background-color: #abcfe7;
+    width: 20%;
+}
+.colonna-blu{
+    background-color: #0188fd;
+    width: 5%;
+}
+.colonna-celeste-grande{
+    background-color: #abcfe7;
+    width: 50%;
+}
+/*Riga Footer*/
+.riga-viola{
+    background-color: #8801fe;
+    height: 100px;
+    margin-top: 10px;
+}
