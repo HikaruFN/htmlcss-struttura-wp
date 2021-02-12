@@ -14,6 +14,9 @@
     display: table;
     clear: both;
 }
+.wrapper{
+    margin: 20px 20px;
+}
 /*Proprietà righe e colonne*/
 .riga-rosa{
     background-color: #e579e6;
